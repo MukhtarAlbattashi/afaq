@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Coins Master') }}</title>
-
+    <link rel="shortcut icon" href="{{asset('images/logo.ico')}}" type="image/x-icon">
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
     @livewireStyles

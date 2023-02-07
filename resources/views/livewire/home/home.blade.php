@@ -8,11 +8,38 @@
             </div>
             <div class="col-md-12 text-white text-center mb-3">
                 <div>
-                    <h1>شركة آفاق التقنية</h1>
-                    <p>
-                        في البرمجة والتصميم والبرامج التعليمية
-                    </p>
+                    <h1>
+                        {{ config('app.name', 'Laravel') }}
+                    </h1>
                 </div>
+            </div>
+            <div class="col-md-12 mb-4">
+                <header>
+                    <nav class="navbar navbar-expand p-0 navbar-light">
+                        <div class="container">
+                            <div class="collapse navbar-collapse fw-bold justify-content-center" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white"
+                                            href="#">الدروس</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white"
+                                            href="{{route('posts')}}">المقالات</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white"
+                                            href="{{route('programs')}}">البرامج</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white"
+                                            href="{{route('about')}}">حول</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
             </div>
         </div>
     </div>
