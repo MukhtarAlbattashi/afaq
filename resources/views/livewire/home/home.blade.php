@@ -9,7 +9,7 @@
             <div class="col-md-12 text-white text-center mb-3">
                 <div>
                     <h1>
-                        {{ config('app.name', 'Laravel') }}
+                        {{ config('app.name', 'الآفاق للبرمجة والتصميم') }}
                     </h1>
                 </div>
             </div>
@@ -20,20 +20,16 @@
                             <div class="collapse navbar-collapse fw-bold justify-content-center" id="navbarNavDropdown">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link text-white"
-                                            href="#">الدروس</a>
+                                        <a class="nav-link text-white" href="#">الدروس</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-white"
-                                            href="{{route('posts')}}">المقالات</a>
+                                        <a class="nav-link text-white" href="{{route('posts')}}">المقالات</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-white"
-                                            href="{{route('programs')}}">البرامج</a>
+                                        <a class="nav-link text-white" href="{{route('programs')}}">البرامج</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-white"
-                                            href="{{route('about')}}">حول</a>
+                                        <a class="nav-link text-white" href="{{route('about')}}">حول</a>
                                     </li>
                                 </ul>
                             </div>
@@ -72,8 +68,8 @@
                     </h1>
                     <br>
                     <h5>
-                        نساعدك في تطوير عملك التجاري من خلال تطوير التطبيقات الذكية التي تتناسب مع هويتك التجارية. ونصمم
-                        تطبيقك على مختلف أنظمة التشغيل المختلفة بكل مهنية واحتراف.
+                        تبحث عن موقع متميز يمثل شركتك التجارية ؟ نصمم لك موقع الكتروني بأحدث الأنظمة والتقنيات الحديثة
+                        وبتصميم مميز حسب اختيارك
                     </h5>
                     <br>
                     <a href="#" class="text-decoration-none badge btn-white btn-sm btn-rounded text-dark b-0">تواصل
@@ -82,6 +78,50 @@
                 <div class="col-md-6 order-first">
                     <img src="{{asset('images/comput.png')}}" class="computer-img" alt="">
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="container p-5">
+        <div class="row justify-content-between align-items-center g-2 text-center">
+            <div class="col-md-12 mb-3">
+                <h1 class="text-center text-gredient fw-bold fs-3">
+                    من نحن ؟
+                </h1>
+                <br>
+                <h5>
+                    شركة متخصصة بمجال البرمجيات والتقنيات الحديثة في مجالي تطبيقات الهاتف النقال والمواقع الالكترونية.
+                    ونصمم البرمجيات على مختلف أنظمة التشغيل بكل مهنية واحتراف.
+                </h5>
+            </div>
+            <div class="col-md-4 mb-3 side-border">
+                <h1 class="text-center text-gredient fw-bold fs-3">
+                    حساباتنا 
+                </h1>
+                <br>
+                <h5>
+                    نساعدك في تطوير عملك التجاري من خلال تطوير التطبيقات الذكية التي تتناسب مع هويتك التجارية. ونصمم
+                    تطبيقك على مختلف أنظمة التشغيل المختلفة بكل مهنية واحتراف.
+                </h5>
+            </div>
+            <div class="col-md-4 mb-3 side-border">
+                <h1 class="text-center text-gredient fw-bold fs-3">
+                    روابط مهمة
+                </h1>
+                <br>
+                <h5>
+                    نساعدك في تطوير عملك التجاري من خلال تطوير التطبيقات الذكية التي تتناسب مع هويتك التجارية. ونصمم
+                    تطبيقك على مختلف أنظمة التشغيل المختلفة بكل مهنية واحتراف.
+                </h5>
+            </div>
+            <div class="col-md-12 mb-3">
+                <h1 class="text-center text-gredient fw-bold fs-3">
+                    حقوق النشر
+                </h1>
+                <br>
+                <h5>
+                    نساعدك في تطوير عملك التجاري من خلال تطوير التطبيقات الذكية التي تتناسب مع هويتك التجارية. ونصمم
+                    تطبيقك على مختلف أنظمة التشغيل المختلفة بكل مهنية واحتراف.
+                </h5>
             </div>
         </div>
     </div>
