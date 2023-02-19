@@ -60,10 +60,6 @@
                                 href="{{route('home')}}">الرئيسية</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  {{ request()->routeIs('lessons') ? 'text-main' : '' }}"
-                                href="#">الدروس</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('posts') ? 'text-main' : '' }}"
                                 href="{{route('posts')}}">المقالات</a>
                         </li>

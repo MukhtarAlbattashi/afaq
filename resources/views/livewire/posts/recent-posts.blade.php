@@ -15,8 +15,8 @@
     </div>
     <br>
     <div>
-        <ul class="card p-0">
-            <div class="bg-opacity-10 card-header">
+        <ul class="card p-0 rounded">
+            <div class="bg-opacity-10 card-header border-0">
                 <h5 class="text-white">
                     وسوم
                 </h5>

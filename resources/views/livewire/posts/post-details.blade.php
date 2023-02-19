@@ -26,7 +26,9 @@
                 </div>
                 <div class="author  mt-2">
                     <div class="user-info">
-                        <span class="user-name badge back-green-light p-2" :class="localStorage.theme == 'dark' ? 'text-main' : ''">مختار البطاشي</span>
+                        <span class="user-name badge back-green-light p-2" :class="localStorage.theme == 'dark' ? 'text-main' : ''">
+                            Admin
+                        </span>
                     </div>
                     <div class="social-media">
                         <span class="badge back-green-light p-2" :class="localStorage.theme == 'dark' ? 'text-main' : ''">

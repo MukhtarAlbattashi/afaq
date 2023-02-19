@@ -12,6 +12,16 @@ class Home extends Component
     use WithPagination;
     public $search = '';
     protected $paginationTheme = 'bootstrap';
+
+
+    public $currentYear;
+
+    public function mount()
+    {
+        $this->currentYear = date('Y');
+    }
+
+
     public function render()
     {
         return view('livewire.home.home')->extends('layouts.public')

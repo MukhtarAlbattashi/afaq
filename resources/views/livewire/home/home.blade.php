@@ -20,9 +20,6 @@
                             <div class="collapse navbar-collapse fw-bold justify-content-center" id="navbarNavDropdown">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">الدروس</a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a class="nav-link text-white" href="{{route('posts')}}">المقالات</a>
                                     </li>
                                     <li class="nav-item">
@@ -81,47 +78,72 @@
             </div>
         </div>
     </div>
-    <div class="container p-5">
-        <div class="row justify-content-between align-items-center g-2 text-center">
-            <div class="col-md-12 mb-3">
+    <div class="container-fuild p-5">
+        <div class="row justify-content-between g-2 text-center">
+            <div class="col-md-3">
                 <h1 class="text-center text-gredient fw-bold fs-3">
                     من نحن ؟
                 </h1>
                 <br>
-                <h5>
+                <h6>
                     شركة متخصصة بمجال البرمجيات والتقنيات الحديثة في مجالي تطبيقات الهاتف النقال والمواقع الالكترونية.
                     ونصمم البرمجيات على مختلف أنظمة التشغيل بكل مهنية واحتراف.
-                </h5>
+                </h6>
             </div>
-            <div class="col-md-4 mb-3 side-border">
+            <div class="col-md-3">
                 <h1 class="text-center text-gredient fw-bold fs-3">
-                    حساباتنا 
+                    حساباتنا
                 </h1>
                 <br>
-                <h5>
-                    نساعدك في تطوير عملك التجاري من خلال تطوير التطبيقات الذكية التي تتناسب مع هويتك التجارية. ونصمم
-                    تطبيقك على مختلف أنظمة التشغيل المختلفة بكل مهنية واحتراف.
-                </h5>
+                <div>
+                    <span class="badge bg-info">
+                        twitter
+                        <i class="fab fa-twitter"></i>
+                    </span>
+                    <span class="badge bg-danger">
+                        instgram
+                        <i class="fab fa-instagram"></i>
+                    </span>
+                    <span class="badge bg-success">
+                        whatsapp
+                        <i class="fab fa-whatsapp"></i>
+                    </span>
+                </div>
             </div>
-            <div class="col-md-4 mb-3 side-border">
+            <div class="col-md-3">
                 <h1 class="text-center text-gredient fw-bold fs-3">
                     روابط مهمة
                 </h1>
                 <br>
-                <h5>
-                    نساعدك في تطوير عملك التجاري من خلال تطوير التطبيقات الذكية التي تتناسب مع هويتك التجارية. ونصمم
-                    تطبيقك على مختلف أنظمة التشغيل المختلفة بكل مهنية واحتراف.
-                </h5>
+                <div>
+                    <a class="badge bg-success text-decoration-none" href="https://www.flaticon.com/" target="_blank"
+                        title="Flaticon">
+                        Flaticon
+                    </a>
+                    <a class="badge bg-primary text-decoration-none" href="https://www.freepik.com/" target="_blank"
+                        title="Freepik">
+                        Freepik
+                    </a>
+                    <a class="badge bg-danger text-decoration-none" href="https://flatuicolors.com/" target="_blank"
+                        title="Flat colors ui">
+                        Flat colors ui
+                    </a>
+                </div>
             </div>
-            <div class="col-md-12 mb-3">
+            <div class="col-md-3">
                 <h1 class="text-center text-gredient fw-bold fs-3">
                     حقوق النشر
                 </h1>
                 <br>
-                <h5>
-                    نساعدك في تطوير عملك التجاري من خلال تطوير التطبيقات الذكية التي تتناسب مع هويتك التجارية. ونصمم
-                    تطبيقك على مختلف أنظمة التشغيل المختلفة بكل مهنية واحتراف.
-                </h5>
+                <h6>
+                    جميع محتويات الموقع غير قابلة للنشر الا باذن من صاحب الموقع أو سيتم متابعته قانونيا.
+                </h6>
+                <h6 class="text-success">
+                    السجل التجاري 1469815 
+                </h6>
+                <h6>
+                    {{$currentYear}} &#169;
+                </h6>
             </div>
         </div>
     </div>
